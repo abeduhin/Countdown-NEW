@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url('https://unsplash.com/photos/FG6tOKVABT4/download?ixid=MnwxMjA3fDB8MXx0b3BpY3x8cVBZc0R6dkpPWWN8fHx8fDJ8fDE2NTc2NTY3NTQ&force=true' );
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 60px;
+    color: azure;
+    text-align: center;
+    margin-top: 10vh;
+    position: relative;
+    z-index: 2;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 90vn;
+    margin: 15px,auto;
+    padding-top: 70px;
+}
+
+.countdown {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 8);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 0 0 100px 50px #000;
+}
+.countdown-2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 8);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 0 100px 50px #000;
+}
+.name {
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+
+.num {
+    font-size: 4rem;
+}
+.name {
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    color: azure;
+    text-align: center;
+    margin-top: 10vh;
+    position: relative;
+    z-index: 2;
+}
